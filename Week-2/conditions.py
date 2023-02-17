@@ -8,9 +8,9 @@ if(age>30) & (gender == 'male'):
 else:
 	print("No loan for you")
 
-fav_color = "gray"
+fav_color = "grey"
 age = 22
-if (fav_color == 'gray') | (age <= 20):
+if (fav_color == 'grey') | (age <= 20):
 	print("Happy birthday to you")
 else:
 	print("No birthday present for")
