@@ -1,4 +1,4 @@
-#/usr/bin/env python3
+#!/usr/bin/env python3
 #Python program to calculate gross income
 #Name : Leon Owino
 #Email: leoncifer99@gmail.com
