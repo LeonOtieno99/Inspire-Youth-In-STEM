@@ -4,8 +4,8 @@
 #students - mark mercy
 #student
 #cars
-#abstraction
-#polymorphism- ability to take many forms
-#encapsulation
-#inheritence
+#abstraction - ability to hide complex information and show only the required information
+#polymorphism- ability of an object to take many forms       poly means 'many'       morph means 'forms'
+#encapsulation - ability to hide information
+#inheritence - ability to acquire characteristics from a parent
 #object - an instance of the class
