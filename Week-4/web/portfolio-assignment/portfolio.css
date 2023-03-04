@@ -1,12 +1,13 @@
 body{
-    background-image: url(assets/jefferson-santos-9SoCnyQmkzI-unsplash.jpg);
-    background-position: center 0px;
+    background-color: black;
+    text-align: center;
+    background-image: url(assets/9tU3Ia.webp);
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-repeat: no-repeat;
-    padding-top: 0%;
-    position: absolute;
-    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+
 }
 .main{
     text-align: center;
@@ -16,14 +17,19 @@ body{
 .links{
     float: left;
     width: 100px;
-    padding: 10px;
+    padding: 20px;
     background-color: black;
     color: rgb(139, 123, 30);
     padding-bottom: 0%;
-    
+    margin: 50px;   
+}
+.navbar a:hover{
+    color: rgb(189, 162, 12);
 }
 h1{
     color: rgb(139, 123, 30);
+    font-size: 30px;
+    text-decoration: underline;
 }
 a{
     color: rgb(139, 123, 30);
@@ -31,9 +37,50 @@ a{
 p{
     color: rgb(139, 123, 30);
 }
-ul{
-    color: rgb(139, 123, 30);
+.navbar{
+    width: 100%;
+    overflow: auto;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: rgb(11, 4, 54);
+    height: auto;
+    font-size: 22px;
 }
-ol{
-    color: rgb(139, 123, 30);
+.navbar a{
+    margin-left: 20px;
+    margin-right: 20px;
 }
+h2{
+    font-size: 40px;
+    color: rgb(139, 123, 30);
+    text-decoration: underline;
+
+}
+.welcome{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+.personal_details{
+    color: rgb(139, 123, 30);
+    font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        align-content: center;
+        background-position: center;
+        overflow-x: hidden;
+        width: 100%;
+
+    }
+    .navbar{
+        width: auto;
+        font-size: 12px;
+
+    }
+    hr{
+        width: 0%;
+    }
+  }
