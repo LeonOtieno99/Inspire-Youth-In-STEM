@@ -10,7 +10,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: url(images/banner.png),linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(images/Jkuat-background.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -23,7 +23,7 @@ nav{
     align-items: center;
 }
 nav img{
-    width: 150px;
+    width: 180px;
 }
 .nav-links{
     flex:1;
@@ -37,9 +37,9 @@ nav img{
 }
 
 .nav-links ul li a{
-    color:#fff;
+    color:#8fdf0d;
     text-decoration: none;
-    font-size: 13px; 
+    font-size: 14px; 
 }
 .nav-links ul li::after{
     content:'';
@@ -57,20 +57,21 @@ nav img{
 .text-box{
 
     width: 90%;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    text-align: center;
+    color: #8cc20e;
+    top: 15%;
+    left: 33%;
     transform: translate(-50% -50%);
 }
 .text-box h1{
-    font-size: 62px;
+    font-size: 50px;
 
 }
 .text-box p{
     margin: 10px 0 40px;
+    left: 44%;
     font-size: 14px;
-    color: #fff;
+    color: whitesmoke;
 }
 
 .hero-btn{
@@ -85,9 +86,17 @@ nav img{
 }
 
 .hero-btn:hover{
-    border: 1px solid #f44336;
-    background: #f44336;
-    transition: 1s;
+    border: 1px solid #6abb1e;
+    background: #bd0707;
+    transition: 2s;
 }
-
+.row{
+    display: flex;
+    justify-content:center;
+    
+}
+.item{
+    padding-left: 8px;
+    border-radius: 75px;
+}
 
