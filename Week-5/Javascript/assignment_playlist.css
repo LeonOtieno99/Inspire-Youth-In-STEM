@@ -1,0 +1,44 @@
+#songs{
+        margin: auto;
+        width: 50%;
+       
+      
+}
+body{
+    background-image: url(images/teahub.io-kenya-flag-wallpaper-2496926.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+
+}
+#Otile_Brown{
+    display: flex;
+}
+#willy_paul{
+    display: flex;
+}
+#Nameless{
+    display: flex;
+}
+#Nikita_Kering{
+    display: flex;
+}
+#img{
+    border-radius: 50px;
+}
+#elements{
+    text-align: center;
+}
+#name{
+    font-size: 14px;
+}
+p{
+    color: white;
+}
+h2{
+    color: white;
+}
