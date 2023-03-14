@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div id="class">
+        <h1 id="myid">MY ID</h1>
+        <h2 id="formheader">Fill the Form Below</h2>
+
+            <h2><label for="name">Enter Name:
+            <input type="text" id="dsname"></label></h2>
+            <h2><label for="ageno">Enter Age:
+            <input type="text" id="age"></label></h2>
+            <p><button onclick="check_age()" id = "button">
+                CHECK</button></p>
+
+                <h1 id = number>0</h1>
+            <button id = "increase_btn">Increase</button>
+            <button id = "decrease_btn">Decrease</button>
+            <button id = "reset_btn">Reset</button>
+
+            <script>
+                var number = 0
+                document.getElementById("increase_btn").onclick = function increase_number(){
+                    number += 1;
+                    console.log(number)
+                    document.getElementById("number").innerHTML = number
+                }
+                document.getElementById("decrease_btn").onclick = function decrease_number(){
+                    number -= 1;
+                    console.log(number)
+                    document.getElementById("number").innerHTML = number
+                }
+                document.getElementById("reset_btn").onclick = function reset_number(){
+                    number = 0;
+                    console.log(number)
+                    document.getElementById("number").innerHTML = number
+                }
+
+
+            </script>
+
+        <h1 id="message"></h1>
+        </div>
+    </body>
+</html>

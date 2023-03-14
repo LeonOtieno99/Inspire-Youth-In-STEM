@@ -1,0 +1,19 @@
+.body{
+    background-color: aqua;
+}
+h1{
+    font-size:40px;
+    color: aliceblue;
+    align-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    max-height: 30px;
+}
+#email_button{
+    color: white;
+    background-color:black;
+}
+#msg_button{
+    color: gray;
+    background-color: white;
+
+}
