@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-breadboard-half", "id": "bb1", "top": -12.6, "left": -35.6, "attrs": {} },
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": -11.33,
+      "left": -126.67,
+      "attrs": { "env": "micropython-20220618-v1.19.1" }
+    },
+    { "type": "wokwi-led", "id": "led1", "top": 6, "left": 51.8, "attrs": { "color": "red" } },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 91.2,
+      "left": 47.45,
+      "rotate": 90,
+      "attrs": { "value": "1000" }
+    },
+    { "type": "wokwi-led", "id": "led2", "top": 6, "left": 109.4, "attrs": { "color": "yellow" } },
+    {
+      "type": "wokwi-resistor",
+      "id": "r2",
+      "top": 91.42,
+      "left": 105.47,
+      "rotate": 90,
+      "attrs": { "value": "1000" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led3",
+      "top": 7.47,
+      "left": 178.33,
+      "attrs": { "color": "green" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r3",
+      "top": 91.2,
+      "left": 172.25,
+      "rotate": 90,
+      "attrs": { "value": "1000" }
+    }
+  ],
+  "connections": [
+    [ "pico:GND.4", "bb1:bn.1", "black", [ "h-16.64", "v45.61", "h136.67", "v-9.33" ] ],
+    [ "bb1:9t.d", "bb1:bn.7", "black", [ "v0" ] ],
+    [ "led1:A", "bb1:10t.b", "", [ "$bb" ] ],
+    [ "led1:C", "bb1:9t.b", "", [ "$bb" ] ],
+    [ "r1:1", "bb1:10t.d", "", [ "$bb" ] ],
+    [ "r1:2", "bb1:10b.h", "", [ "$bb" ] ],
+    [ "pico:GP13", "bb1:10b.j", "red", [ "h-29.31", "v68.54", "h224.67", "v-7.33" ] ],
+    [ "led2:A", "bb1:16t.b", "", [ "$bb" ] ],
+    [ "led2:C", "bb1:15t.b", "", [ "$bb" ] ],
+    [ "r2:1", "bb1:16t.d", "", [ "$bb" ] ],
+    [ "r2:2", "bb1:16b.h", "", [ "$bb" ] ],
+    [ "bb1:15t.d", "bb1:bn.12", "black", [ "v0" ] ],
+    [ "led3:A", "bb1:23t.b", "", [ "$bb" ] ],
+    [ "led3:C", "bb1:22t.b", "", [ "$bb" ] ],
+    [ "r3:1", "bb1:23t.d", "", [ "$bb" ] ],
+    [ "r3:2", "bb1:23b.h", "", [ "$bb" ] ],
+    [ "pico:GP15", "bb1:23b.j", "green", [ "h4.02", "v69.07", "h284.67" ] ],
+    [ "bb1:22t.d", "bb1:bn.18", "black", [ "v0" ] ],
+    [ "pico:GP12", "bb1:16b.j", "gold", [ "h-39.31", "v86.14", "h292.67", "v5.33" ] ]
+  ],
+  "dependencies": {}
+}
